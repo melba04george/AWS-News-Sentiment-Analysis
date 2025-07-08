@@ -8,7 +8,12 @@ ________________________________________
 •	Visual analytics using Streamlit
 •	Dockerized deployment with AWS ECS Fargate
 •	Scheduled automation using Lambda and EventBridge
-________________________________________
+
+🧠Architecture of Project
+
+![architecture](https://github.com/user-attachments/assets/20bb4eec-ff8c-4259-93be-ff243c9910a2)
+_______________________________
+
 🧰 Tools & Services Used
 •	Python (3.9/3.10)
 •	Streamlit
