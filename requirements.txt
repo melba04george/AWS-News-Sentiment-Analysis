@@ -1,0 +1,10 @@
+streamlit
+pandas
+sqlalchemy
+psycopg2-binary
+boto3
+textblob
+plotly
+requests
+psycopg2-binary
+requests

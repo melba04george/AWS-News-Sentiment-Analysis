@@ -1,0 +1,19 @@
+# Base Image
+FROM python:3.9
+
+# Working Directory
+WORKDIR /app
+
+# Copy Files
+COPY requirements.txt /app/
+COPY news_dashboard.py /app/
+COPY news_fetcher.py /app/
+
+# Install Dependencies
+RUN pip install -r requirements.txt
+
+# Expose Streamlit Port
+EXPOSE 8501
+
+# Start Streamlit App
+CMD ["streamlit", "run", "news_dashboard.py", "--server.port=8501", "--server.address=0.0.0.0"]
